@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1634FF41E6E44090064B46E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1634FF31E6E44090064B46E /* main.m */; };
+		A1634FF71E6E44090064B46E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1634FF61E6E44090064B46E /* AppDelegate.m */; };
+		A1634FFA1E6E44090064B46E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1634FF91E6E44090064B46E /* ViewController.m */; };
+		A1634FFD1E6E44090064B46E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1634FFB1E6E44090064B46E /* Main.storyboard */; };
+		A1634FFF1E6E44090064B46E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1634FFE1E6E44090064B46E /* Assets.xcassets */; };
+		A16350021E6E44090064B46E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16350001E6E44090064B46E /* LaunchScreen.storyboard */; };
+		A163500B1E6E44440064B46E /* CalenderEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = A163500A1E6E44440064B46E /* CalenderEvent.m */; };
+		A163500E1E6E50490064B46E /* NSDate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = A163500C1E6E50490064B46E /* NSDate+Category.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1634FEF1E6E44090064B46E /* 添加删除日历事件.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "添加删除日历事件.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1634FF31E6E44090064B46E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1634FF51E6E44090064B46E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1634FF61E6E44090064B46E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1634FF81E6E44090064B46E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A1634FF91E6E44090064B46E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A1634FFC1E6E44090064B46E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1634FFE1E6E44090064B46E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A16350011E6E44090064B46E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A16350031E6E44090064B46E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A16350091E6E44440064B46E /* CalenderEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalenderEvent.h; sourceTree = "<group>"; };
+		A163500A1E6E44440064B46E /* CalenderEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalenderEvent.m; sourceTree = "<group>"; };
+		A163500C1E6E50490064B46E /* NSDate+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Category.m"; sourceTree = "<group>"; };
+		A163500D1E6E50490064B46E /* NSDate+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Category.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1634FEC1E6E44090064B46E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1634FE61E6E44090064B46E = {
+			isa = PBXGroup;
+			children = (
+				A1634FF11E6E44090064B46E /* 添加删除日历事件 */,
+				A1634FF01E6E44090064B46E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1634FF01E6E44090064B46E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1634FEF1E6E44090064B46E /* 添加删除日历事件.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1634FF11E6E44090064B46E /* 添加删除日历事件 */ = {
+			isa = PBXGroup;
+			children = (
+				A1634FF51E6E44090064B46E /* AppDelegate.h */,
+				A1634FF61E6E44090064B46E /* AppDelegate.m */,
+				A1634FF81E6E44090064B46E /* ViewController.h */,
+				A1634FF91E6E44090064B46E /* ViewController.m */,
+				A16350091E6E44440064B46E /* CalenderEvent.h */,
+				A163500A1E6E44440064B46E /* CalenderEvent.m */,
+				A163500C1E6E50490064B46E /* NSDate+Category.m */,
+				A163500D1E6E50490064B46E /* NSDate+Category.h */,
+				A1634FFB1E6E44090064B46E /* Main.storyboard */,
+				A1634FFE1E6E44090064B46E /* Assets.xcassets */,
+				A16350001E6E44090064B46E /* LaunchScreen.storyboard */,
+				A16350031E6E44090064B46E /* Info.plist */,
+				A1634FF21E6E44090064B46E /* Supporting Files */,
+			);
+			path = "添加删除日历事件";
+			sourceTree = "<group>";
+		};
+		A1634FF21E6E44090064B46E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1634FF31E6E44090064B46E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1634FEE1E6E44090064B46E /* 添加删除日历事件 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A16350061E6E44090064B46E /* Build configuration list for PBXNativeTarget "添加删除日历事件" */;
+			buildPhases = (
+				A1634FEB1E6E44090064B46E /* Sources */,
+				A1634FEC1E6E44090064B46E /* Frameworks */,
+				A1634FED1E6E44090064B46E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "添加删除日历事件";
+			productName = "添加删除日历事件";
+			productReference = A1634FEF1E6E44090064B46E /* 添加删除日历事件.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1634FE71E6E44090064B46E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Detrum-yangmin";
+				TargetAttributes = {
+					A1634FEE1E6E44090064B46E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8PLB35PLP3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A1634FEA1E6E44090064B46E /* Build configuration list for PBXProject "添加删除日历事件" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1634FE61E6E44090064B46E;
+			productRefGroup = A1634FF01E6E44090064B46E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1634FEE1E6E44090064B46E /* 添加删除日历事件 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1634FED1E6E44090064B46E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A16350021E6E44090064B46E /* LaunchScreen.storyboard in Resources */,
+				A1634FFF1E6E44090064B46E /* Assets.xcassets in Resources */,
+				A1634FFD1E6E44090064B46E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1634FEB1E6E44090064B46E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1634FFA1E6E44090064B46E /* ViewController.m in Sources */,
+				A1634FF71E6E44090064B46E /* AppDelegate.m in Sources */,
+				A163500E1E6E50490064B46E /* NSDate+Category.m in Sources */,
+				A163500B1E6E44440064B46E /* CalenderEvent.m in Sources */,
+				A1634FF41E6E44090064B46E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A1634FFB1E6E44090064B46E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1634FFC1E6E44090064B46E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A16350001E6E44090064B46E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A16350011E6E44090064B46E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A16350041E6E44090064B46E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A16350051E6E44090064B46E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A16350071E6E44090064B46E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8PLB35PLP3;
+				INFOPLIST_FILE = "添加删除日历事件/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deturetech.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A16350081E6E44090064B46E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8PLB35PLP3;
+				INFOPLIST_FILE = "添加删除日历事件/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deturetech.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1634FEA1E6E44090064B46E /* Build configuration list for PBXProject "添加删除日历事件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A16350041E6E44090064B46E /* Debug */,
+				A16350051E6E44090064B46E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A16350061E6E44090064B46E /* Build configuration list for PBXNativeTarget "添加删除日历事件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A16350071E6E44090064B46E /* Debug */,
+				A16350081E6E44090064B46E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1634FE71E6E44090064B46E /* Project object */;
+}
